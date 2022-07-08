@@ -1,0 +1,92 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  height: 1000px;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+}
+
+.polaroid {
+  position: fixed;
+}
+
+.bg {
+  margin-top: 50px;
+}
+
+h1 {
+  margin-top: -20px;
+  margin-left: 100px;
+}
+
+.container-1 {
+  position: fixed;
+  left: 60%;
+  top: 60px;
+  padding: 40px 30px 30px 30px;
+  background-color: white;
+  font-size: medium;
+  border: 1px solid;
+  border-radius: 5px;
+  height: 500px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 50%;
+  padding: 5px;
+  margin: 5px 0 25px 0;
+  display: flex;
+  border-radius: 5px;
+  background: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  opacity: 0.6;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: white;
+  outline: none;
+}
+
+/* Set a style for the signup button  */
+#signupbtn {
+  width: 40%;
+  padding: 12px;
+  font-size: 14px;
+  background: rgb(30, 30, 253);
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 90px;
+}
+
+#signupbtn:hover {
+  opacity: 1;
+  background: lightskyblue;
+}
+
+a {
+  color: rgb(3, 47, 241);
+}
+
+.signin {
+  background-color: white;
+  text-align: left;
+}
+
+@media (max-width: 320px) {
+  body {
+    margin: 0px 18px;
+    flex-direction: column;
+  }
+  .container1.containersignin {
+    flex-direction: column;
+  }
+  #signupbtn {
+    width: 75%;
+  }
+}

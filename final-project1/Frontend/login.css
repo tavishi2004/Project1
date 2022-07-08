@@ -1,0 +1,143 @@
+body {
+  overflow-x: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
+  color: black;
+  line-height: 0.6;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 80px;
+  animation: mymove 5s infinite;
+}
+
+h4 {
+  margin-top: -10px;
+  margin-left: 20px;
+  padding-bottom: 30px;
+}
+
+.img {
+  position: fixed;
+  right: 100px;
+  top: 60px;
+}
+
+form {
+  position: fixed;
+  background: #fff;
+  max-width: 500px;
+  padding: 58px 44px;
+  transition: all 0.3s ease;
+  margin-top: 60px;
+  margin-left: 88px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.row label {
+  font-size: 18px;
+  color: black;
+}
+
+.row input {
+  margin-top: 18px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #0d0e13;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: all 0.2s ease-out;
+  width: 230px;
+}
+
+.row input:focus {
+  outline: none;
+  box-shadow: inset 2px 2px 5px 0 rgba(42, 45, 48, 0.12);
+}
+
+.row input::placeholder {
+  color: #c8cddf;
+}
+
+button {
+  width: 40%;
+  padding: 12px;
+  /* font-size: 18px; */
+  background: rgb(37, 37, 216);
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  /* margin-top: 0px;
+    transition: background 0.2s ease-out; */
+  margin-left: 55px;
+}
+
+button:hover {
+  background: lightblue;
+}
+
+.container {
+  padding: 15px;
+  /* margin-left: -30px; */
+}
+
+.signupbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 4px 0 0;
+  margin-top: 1px;
+  line-height: normal;
+  margin-left: 20px;
+}
+
+span.psw {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+label.check {
+  max-width: 100%;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.polaroid {
+  position: fixed;
+  margin-left: -70px;
+  margin-top: 5px;
+}
+
+@keyframes mymove {
+  from {
+    background-color: rgb(182, 224, 250);
+  }
+  to {
+    background-color: rgb(50, 120, 250);
+  }
+  to {
+    background-color: rgb(125, 193, 233);
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    margin: 0px 18px;
+    flex-direction: column;
+  }
+}

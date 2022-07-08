@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="file.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css"
+      id="theme-styles"
+    />
+    <title>CG Docs</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="topbar">
+        <div class="logo">
+          <h2>CG DOCS.</h2>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            name="search"
+            placeholder="search here"
+            id="search"
+            oninput="search()"
+          />
+          <label for="search"><i class="fas fa-search"></i></label>
+        </div>
+        <i class="fas fa-bell"></i>
+        <div class="user">
+          <span
+            id="usertext"
+            style="color: black; float: right; margin-left: 15px"
+          ></span>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="box">
+          <button id="trigger">+ Upload File</button>
+          <div class="modal">
+            <div class="modal-content">
+              <span class="close-button">×</span>
+              <form>
+                <input type="file" id="myfile" />
+
+                <button type="button" id="createfilebtn" onclick="uploadfile()">
+                  Upload File
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <ul>
+          <li>
+            <a href="Dashboard.html">
+              <i class="fas fa-th-large"></i>
+              <div>Dashboard</div>
+            </a>
+          </li>
+          <li>
+            <a href="index.html">
+              <i class="fas fa-home"></i>
+              <div>Homepage</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-file"></i>
+              <div>Recent Files</div>
+            </a>
+          </li>
+          <li>
+            <a href="trash.html">
+              <i class="fas fa-trash"></i>
+              <div>Trash</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-cog"></i>
+              <div>Settings</div>
+            </a>
+          </li>
+          <li>
+            <a href="login.html">
+              <i class="fas fa-question"></i>
+              <div onclick="logout()">Log Out</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="filemain"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="file.js"></script>
+  </body>
+</html>

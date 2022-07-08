@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="Dashboard.css" />
+    <title>CGDocs</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="topbar">
+        <div class="logo">
+          <h2>CG DOCS.</h2>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            name="search"
+            placeholder="search here"
+            id="search"
+            oninput="search()"
+          />
+          <label for="search"><i class="fas fa-search"></i></label>
+        </div>
+        <i class="fas fa-bell"></i>
+        <span
+          id="usertext"
+          style="color: black; float: right; margin-left: 15px"
+        ></span>
+      </div>
+      <div class="sidebar" id="side">
+        <ul>
+          <li class="List">
+            <a href="Dashboard.html">
+              <i class="fas fa-th-large"></i>
+              <div>Dashboard</div>
+            </a>
+          </li>
+          <li class="List">
+            <a href="trashfolder.html">
+              <i class="fas fa-trash"></i>
+              <div>Folder</div>
+            </a>
+          </li>
+          <li class="List">
+            <a href="login.html">
+              <i class="fas fa-question"></i>
+              <div onclick="logout()">Log Out</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="main"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="onlytrashfile.js"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/4beff64e3f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="Dashboard.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css"
+      id="theme-styles"
+    />
+    <title>CGDocs</title>
+  </head>
+
+  <body>
+    <div class="container1">
+      <div class="topbar">
+        <div class="logo">
+          <h2>CG DOCS.</h2>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            name="search"
+            placeholder="search here"
+            id="search"
+            oninput="search()"
+          />
+          <label for="search"><i class="fas fa-search"></i></label>
+        </div>
+        <i class="fa fa-user fa-2x"></i>
+        <span
+          id="usertext"
+          style="
+            color: black;
+            float: right;
+            margin-left: 15px;
+            font-size: larger;
+          "
+        ></span>
+      </div>
+      <div class="sidebar" id="side">
+        <div class="box">
+          <button id="trigger">+ New Folder</button>
+          <div class="modal">
+            <div class="modal-content">
+              <span class="close-button">×</span>
+              <form>
+                <h3>Folder name</h3>
+                <input type="text" id="fname" name="fname" />
+                <button type="button" id="createbtn">Create folder</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <ul>
+          <li class="List active">
+            <a href="#">
+              <i class="fas fa-th-large"></i>
+              <div>Dashboard</div>
+            </a>
+          </li>
+          <li class="List">
+            <a href="index.html">
+              <i class="fas fa-home"></i>
+              <div>Homepage</div>
+            </a>
+          </li>
+          <li class="List">
+            <a href="#">
+              <i class="fas fa-file"></i>
+              <div>Recent Files</div>
+            </a>
+          </li>
+          <li class="List">
+            <a href="favourites.html">
+              <i class="fas fa-star"></i>
+              <div>Favourites</div>
+            </a>
+          </li>
+          <li class="List">
+            <a href="trash.html">
+              <i class="fas fa-trash"></i>
+              <div>Trash</div>
+            </a>
+          </li>
+          <li class="List">
+            <a href="login.html">
+              <i class="fas fa-question"></i>
+              <div onclick="logout()">Log Out</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="main"></div>
+    </div>
+  </body>
+  <script src="Dashboard.js"></script>
+</html>

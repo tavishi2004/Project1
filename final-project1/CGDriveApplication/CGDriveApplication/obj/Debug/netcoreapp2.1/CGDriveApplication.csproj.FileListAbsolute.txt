@@ -1,0 +1,28 @@
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.csproj.CoreCompileInputs.cache
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.RazorAssemblyInfo.cache
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.RazorAssemblyInfo.cs
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.AssemblyInfoInputs.cache
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.AssemblyInfo.cs
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\bin\Debug\netcoreapp2.1\CGDriveApplication.deps.json
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\bin\Debug\netcoreapp2.1\CGDriveApplication.runtimeconfig.json
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\bin\Debug\netcoreapp2.1\CGDriveApplication.runtimeconfig.dev.json
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\bin\Debug\netcoreapp2.1\CGDriveApplication.dll
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\bin\Debug\netcoreapp2.1\CGDriveApplication.pdb
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.RazorTargetAssemblyInfo.cache
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.dll
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.pdb
+C:\Users\mahek.garg\Desktop\Drive Web Application\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.csprojAssemblyReference.cache
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\bin\Debug\netcoreapp2.1\CGDriveApplication.deps.json
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\bin\Debug\netcoreapp2.1\CGDriveApplication.runtimeconfig.json
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\bin\Debug\netcoreapp2.1\CGDriveApplication.runtimeconfig.dev.json
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\bin\Debug\netcoreapp2.1\CGDriveApplication.dll
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\bin\Debug\netcoreapp2.1\CGDriveApplication.pdb
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.csprojAssemblyReference.cache
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.csproj.CoreCompileInputs.cache
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.RazorAssemblyInfo.cache
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.RazorAssemblyInfo.cs
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.AssemblyInfoInputs.cache
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.AssemblyInfo.cs
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.RazorTargetAssemblyInfo.cache
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.dll
+C:\Users\Tavishi.Saini\Desktop\final-project1\CGDriveApplication\CGDriveApplication\obj\Debug\netcoreapp2.1\CGDriveApplication.pdb
